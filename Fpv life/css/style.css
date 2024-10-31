@@ -1,0 +1,44 @@
+
+@import url("component/container.css");
+@import url("component/avatar.css");
+@import url("component/button.css");
+@import url("component/banner.css");
+
+body{
+	font-family: 'Lora', serif;
+	font-weight: 500;
+	font-size: 18px;
+	background-color: rgb(0, 0, 0 / 1.0);
+}
+
+
+h1, h2, h3 {
+	font-family: "roboto", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.avatar {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+.container2 {
+	display: auto;
+	margin: 0 auto;
+}
+.card-white {
+	background-color: white;
+	padding:40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 0px 0px;
+	text-align: center;
+	border: 2px;
+}
